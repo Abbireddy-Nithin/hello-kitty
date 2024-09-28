@@ -59,13 +59,13 @@ output "aws_s3_kitty_ka_bucket_kms_arn" {
 }
 
 
-output "aws_iam_role_nithin_git_kitty_role_arn" {
-  value = module.appcd_b71fd16c-797e-5a95-8e1b-ab22f1e34f43.arn
+output "aws_iam_role_nithin_git_kitty_role_name" {
+  value = module.appcd_b71fd16c-797e-5a95-8e1b-ab22f1e34f43.name
   sensitive = false
 }
 
 
-output "aws_iam_role_nithin_git_kitty_role_name" {
-  value = module.appcd_b71fd16c-797e-5a95-8e1b-ab22f1e34f43.name
+output "aws_iam_role_nithin_git_kitty_role_arn" {
+  value = module.appcd_b71fd16c-797e-5a95-8e1b-ab22f1e34f43.arn
   sensitive = false
 }
