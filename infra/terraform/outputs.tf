@@ -35,18 +35,6 @@ output "aws_cloudwatch_log_group_aws_lambda_hello_kitty_function_nithin_name" {
 }
 
 
-output "aws_s3_kitty_ka_bucket_arn" {
-  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.arn
-  sensitive = false
-}
-
-
-output "aws_s3_kitty_ka_bucket_bucket_name" {
-  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_name
-  sensitive = false
-}
-
-
 output "aws_s3_kitty_ka_bucket_bucket_website_endpoint" {
   value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_website_endpoint
   sensitive = false
@@ -55,6 +43,18 @@ output "aws_s3_kitty_ka_bucket_bucket_website_endpoint" {
 
 output "aws_s3_kitty_ka_bucket_kms_arn" {
   value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.kms_arn
+  sensitive = false
+}
+
+
+output "aws_s3_kitty_ka_bucket_arn" {
+  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.arn
+  sensitive = false
+}
+
+
+output "aws_s3_kitty_ka_bucket_bucket_name" {
+  value = module.appcd_551e1d2b-88ec-5406-87cf-c51521bbe894.bucket_name
   sensitive = false
 }
 
